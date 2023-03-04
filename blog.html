@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/EdgeLedger/style.css">
+    <link rel="stylesheet" href="/EdgeLedger/utilities.css">
+    <script src="https://kit.fontawesome.com/93772f16e1.js" crossorigin="anonymous"></script>
+    <title>Blog</title>
+</head>
+<body>
+    <header class="hero blog">
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+             <span class="text-primary"><i class="fa-solid fa-book-open"></i>Edge</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Blog</h1>
+            <!-- <p>We provide world class financial services</p> -->
+            <!-- <a href="#about" class="btn">&gt Read More</a> -->
+        </div>
+    </header>
+    <main>
+        <section class="solutions flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="/EdgeLedger/images/pexels-jess-bailey-designs-768474.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>BlogPost One</h2>
+                        <h4><i class="fa-solid fa-user"></i>by John Doe | April 17 2018</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia dolor tenetur veritatis enim rerum, repudiandae doloremque quia ipsam voluptatem?</p>
+                        <a href="#about" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solutions flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="/EdgeLedger/images/pexels-fauxels-3184418.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-third">
+                        <h2>BlogPost Two</h2>
+                        <h4><i class="fa-solid fa-user"></i>by Sara Mitchell | May 7 2019</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia dolor tenetur veritatis enim rerum, repudiandae doloremque quia ipsam voluptatem?</p>
+                        <a href="#about" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solutions flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="/EdgeLedger/images/pexels-fauxels-3184465.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-dark">
+                        <h2>BlogPost Three</h2>
+                        <h4><i class="fa-solid fa-user"></i>by Saikiriti Voonna | October 17 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia dolor tenetur veritatis enim rerum, repudiandae doloremque quia ipsam voluptatem?</p>
+                        <a href="#about" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer bg">
+        <div class="social">
+            <a href="" class="logo"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="logo"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="logo"><i class="fa-brands fa-youtube"></i></a>
+            <a href="" class="logo"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="copy">
+            <p>Copyright &copy 2020-EdgeLedger</p>
+        </div>
+    </footer>
+    <script>
+        const navbar=document.getElementById('navbar');
+
+        window.onscroll = function(){
+            if(window.pageYOffset>100){
+            navbar.classList.remove('top');
+            }
+            else{
+                navbar.classList.add('top');
+            }
+        }
+    </script>
+</body>
+</html>
