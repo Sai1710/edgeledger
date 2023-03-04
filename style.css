@@ -60,7 +60,7 @@ img{
 
 /* Header */
 .hero {
-    background: url('/EdgeLedger/images/pexels-daniel-bendig-887845.jpg') no-repeat center center/cover;
+    background: url('./images/pexels-daniel-bendig-887845.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     color: #fff;
@@ -166,7 +166,7 @@ footer {
     }
 }
 .hero.blog {
-    background: url('/EdgeLedger/images/pexels-christina-morillo-1181406.jpg') no-repeat center center/cover;
+    background: url('./images/pexels-christina-morillo-1181406.jpg') no-repeat center center/cover;
     height: 40vh;
 }
 
